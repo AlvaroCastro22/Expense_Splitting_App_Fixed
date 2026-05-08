@@ -1529,3 +1529,4 @@ function DiscountsScreen({ onBack, onUpgrade }: { onBack:()=>void; onUpgrade:()=
       </div>
     </Slide>
   );
+}
