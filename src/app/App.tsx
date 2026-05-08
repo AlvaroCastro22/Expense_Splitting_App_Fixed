@@ -1,5 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, createContext, useContext } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import { Plus, ArrowLeft, Users, Receipt, TrendingUp, TrendingDown,
+  CheckCircle2, Clock, Send, X, UserPlus, Trash2, Bell, Crown,
+  ScanLine, Tag, User, ChevronRight, LogOut } from 'lucide-react';
 import {
   Plus,
   ArrowLeft,
